@@ -1,0 +1,21 @@
+{
+  "name": "linkedin-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd frontend && npm start",
+    "build": "concurrently \"npm run build-server\" \"npm run build-client\"",
+    "build-server": "cd server && npm run build",
+    "build-client": "cd frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
