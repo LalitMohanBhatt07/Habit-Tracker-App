@@ -8,7 +8,7 @@ const path = require('path');
 
 const allowedOrigins = [
   'http://localhost:3000', // Development URL
-  'habitTrackerDeployedByLalit.herokuapp.com', // Production URL
+  'https://habittrackerbylalit-iwpkr4j2a-lalits-projects-550a0518.vercel.app', // Production URL
 ]
 
 const PORT = 4000;
